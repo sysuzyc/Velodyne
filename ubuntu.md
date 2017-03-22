@@ -43,3 +43,4 @@ lcm是轻量级通信工具（Lightweight Communication and Marshalling），所
 通过进入到对应的文件夹中，运行相应的文件，来进行程序的运行。其中./run.sh是需要先运行的，然后在pcap文件夹中，找到想要运行的pcap文件的全称，利用replay_pcap.py xxx来进行数据的处理，就可以了。
 
 最后，如果看到了图片的话，那么恭喜你，环境配置成功了，你可以尽情的玩耍了！
+
