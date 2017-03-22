@@ -2,10 +2,10 @@
 
 针对velodyne来进行一些研究
 
-## Windows
+### Windows
  
-windows环境下进行配置，以及跑通源代码。
+windows环境下配置说明，包含配置文件，project。
  
-## Ubuntu。
+### Ubuntu。
 
-Ubuntu环境下进行配置，并成功运行代码。
+Ubuntu环境下配置说明，包含配置所需要的一些文件，以及在Ubuntu下运行的project。
