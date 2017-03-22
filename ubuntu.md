@@ -1,25 +1,30 @@
-#velodyne Ubuntu下环境配置
-##cmake
+
+# velodyne Ubuntu下环境配置
+## cmake
 在terminal中输入以下指令，判断Ubuntu之中是否有cmake。
 	
-	$ cmake --version
+	 $ cmake --version
+	 
 需要的是cmake的版本至少在3.1以上，如果不在的话，则需要自己下载对应的cmake包来安装。
 
-##OpenGL
-	$ sudo apt-get install buildessential
-	$ sudo apt-get install libgl1mesadev
-	$ sudo apt-get install libglu1mesadev
-	$ sudo apt-get install freeglut3dev
+## OpenGL
+
+	 $ sudo apt-get install buildessential
+	 $ sudo apt-get install libgl1mesadev
+	 $ sudo apt-get install libglu1mesadev
+	 $ sudo apt-get install freeglut3dev
+	
 执行上面的命令，进行OpenGL的配置。
 
 在配置完成之后，进行测试。测试样例代码testOpenGl.c
 
-	$ gcc -o testOpenGL testOpenGL.c -lGL -lGLU -lglut
-	$ ./testOpenGL
+	 $ gcc -o testOpenGL testOpenGL.c -lGL -lGLU -lglut
+	 $ ./testOpenGL
 
 如果会出现一个茶壶的图片，则配置成功。
 
-##配置lcm
+## 配置lcm
+
 lcm是轻量级通信工具（Lightweight Communication and Marshalling），所以，我们这里进行的是直接解压包并安装利用。
 
 	$ unzip lcm1.3.1.zip
@@ -28,7 +33,7 @@ lcm是轻量级通信工具（Lightweight Communication and Marshalling），所
 	$ make
 	$ sudo make install
 
-编译及运行
+## 编译及运行
 	
 	cd Velodyne_viewer/bin/Debug
 	./run.sh
