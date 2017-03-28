@@ -155,7 +155,7 @@
 
 首先开一个terminal来运行上面的命令。
 
-	roslaunch velodyne_pointcloud VLP16_points.launch pcap:="/home/laboshinl/Downloads/velodyne.pcap"
+	roslaunch velodyne_pointcloud VLP16_points.launch pcap:="/home/sysuzyc/research/loam_slam/velodyne.pcap"
 
 然后再开另一个terminal，来运行上面的命令。其中最后的那句话，是处理[数据集](https://midas3.kitware.com/midas/folder/12979)，其中双引号内部的路径为自己存放恩东数据集的绝对路径。
 
