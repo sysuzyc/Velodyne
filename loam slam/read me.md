@@ -163,4 +163,12 @@
 
 ![开始的图片](https://raw.githubusercontent.com/sysuzyc/Picture/master/velodyne_17-52-56.png)
 
-这样就算你成功的运行了这个程序。
+## 图片展示
+在这里，我们需要做的就是将构建的图片收集起来，并进行拼接，得到最后的完整的图形。
+	pcl_viewer *.pcd
+这个就是我们将保存下来的pcd文件拼接的命令。可以看到结果为：
+![nsh](https://github.com/sysuzyc/Picture/blob/master/nsh.png?raw=true)
+
+![nsh](https://github.com/sysuzyc/Picture/blob/master/nsh_small.png?raw=true)
+
+这样就算你成功的运行了loam_slam了。
