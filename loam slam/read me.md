@@ -17,6 +17,7 @@
 #### [ros的具体配置](https://github.com/sysuzyc/ES2016_14353404/blob/master/assignment/ES2016_14353404_ROS.pdf)
 
 然后，我们可以看到catkin_ws的配置如下所示：
+
 	mkdir ~/catkin_ws
 	cd ~/catkin_ws
 	catkin_init_workspace
