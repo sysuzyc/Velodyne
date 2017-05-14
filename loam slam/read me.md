@@ -18,8 +18,8 @@
 
 然后，我们可以看到catkin_ws的配置如下所示：
 
-	mkdir ~/catkin_ws
-	cd ~/catkin_ws
+	mkdir -p ~/catkin_ws/src
+	cd ~/catkin_ws/src
 	catkin_init_workspace
 
 ## ros_velodyne的配置
@@ -44,6 +44,7 @@
 	cd ~/catkin_ws/src/
 	git clone https://github.com/laboshinl/loam_velodyne.git
 	cd ~/catkin_ws
+	source ~/catkin_ws/devel/setup.bash
 	catkin_make -DCMAKE_BUILD_TYPE=Release 
 	source ~/catkin_ws/devel/setup.bash
 
